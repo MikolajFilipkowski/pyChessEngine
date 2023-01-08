@@ -1,0 +1,18 @@
+App:
+- tkinter interface
++ build
+
+Board:
+- Piece location
+- Castling rights
+- Active color
+- En Passant
+- Half/Fullmove counter
++ toFen
++ move
+
+Piece:
+- type of piece
+- value points
+- color
++ getValue (static)
